@@ -7,5 +7,6 @@ Cat.prototype.function() {
 }
 function AddText(x) {
     return x;
+    console.log(x);
 }
 module.export = Cat;
