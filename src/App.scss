@@ -1,5 +1,133 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*, ul {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  transition: all .2s;
+  box-sizing: border-box;
+}
+
+:root {
+  --black-2: #202026;
+  --white: #fff;
+  --blue: #2196F3;
+}
 .header {
-  .active {
-    color: red;
+  //background-color: var(--black-2);
+  background-color: transparent;
+  padding: 15px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    li {
+      list-style: none;
+      a {
+        color: var(--white);
+        text-decoration: none;
+        display: block;
+        margin-left: 50px;
+        font-size: 18px;
+        font-weight: 500;
+        border-bottom: 1px solid transparent;
+        &:hover {
+          color: var(--blue);
+        }
+      }
+      .active {
+        border-bottom: 1px solid var(--white);
+      }
+    }
+    .header__logo {
+      flex: 1;
+      img {
+        max-width: 150px;
+      }
+    }
+  }
+}
+
+.home {
+  background: url('./assets/bg-home.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  &__hello {
+    background-color: var(--blue);
+    font-size: 14px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    font-weight: 500;
+    padding: 8px 30px;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  &__name {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  &__job {
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 30px;
+  }
+  &__info {
+    li {
+        list-style-type: none;
+      a {
+        color: var(--white);
+        font-size: 14px;
+        text-decoration: none;
+        margin: 10px 0;
+        display: block;
+        i {
+          width: 20px;
+          display: inline-block;
+          margin-right: 15px;
+        }
+        &:hover {
+          color: var(--blue);
+        }
+      }
+    }
+  }
+  &__social {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    li {
+      list-style: none;
+      a {
+        display: block;
+        margin-right: 25px;
+        color: var(--white);
+        &:hover {
+          color: var(--blue);
+        }
+      }
+    }
+  }
+  .avatar {
+    border: 20px solid var(--black-2);
+    display: inline-block;
+    border-radius: 50%;
+    img {
+      border-radius: 50%;
+      max-width: 320px;
+      border: 20px solid rgba(0, 0, 0, 0.4);
+
+    }
   }
 }

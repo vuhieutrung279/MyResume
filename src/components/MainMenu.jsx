@@ -8,7 +8,7 @@ function MainMenu() {
     return (
         <div>
             <Switch>
-                <Route exact path="/home" component={Home} />
+                <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/blog" component={Blog} />
                 <Route path="/blog/:id/:slug.html" component={BlogItemDetail} />
