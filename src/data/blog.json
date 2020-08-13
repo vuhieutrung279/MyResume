@@ -2,11 +2,11 @@
     {
         "id": 1,
         "title": "Các Extension mình sử dụng trong Visual Studo Code",
-        "content": "<h1>Lorem pla pla</h1>" 
+        "shortDesc": "Lorem pla pla" 
     },
     {
         "id": 2,
         "title": "Những phím tắt mình sử dụng trong VSCode",
-        "content": "<h1>Lorem pla pla</h1>" 
+        "shortDesc": "Lorem pla pla" 
     }
 ]
