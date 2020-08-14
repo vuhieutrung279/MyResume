@@ -4,7 +4,7 @@ function BlogItemDetail(props) {
     return (
         <div>
             {data.map((item, key) => {
-                if (item.id == props.match.params.id) {
+                if ((item.id).toString() === props.match.params.id) {
                     return (
                         <div className="item">
                             <h1>{item.title}</h1>

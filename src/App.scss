@@ -10,14 +10,19 @@
 }
 
 :root {
+  --black: #000;
   --black-2: #202026;
+  --black-3: #100E17;
   --white: #fff;
   --blue: #2196F3;
 }
 
 //-------------------------------- Header
+.header.active {
+  background-color: var(--black-2);
+}
 .header {
-  //background-color: var(--black-2);
+  
   background-color: transparent;
   padding: 15px 0;
   width: 100%;
@@ -161,7 +166,7 @@
   }
   &__list {
     flex: 1;
-    background-color: #100E17;
+    background-color: var(--black-3);
     padding: 60px 0;
     .blog__item {
       background-color: #202026;
@@ -188,3 +193,120 @@
 }
 
 //-------------------------------- End Blog Page
+
+//-------------------------------- About
+.about {
+  .about-me {
+    background-color: var(--black-3);
+    color: var(--white);
+    padding: 120px 0 60px;
+    img {
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+    }
+    &__content {
+      h2 {
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 14px;
+      }
+      .about-me__cv {
+        background-color: var(--blue);
+        color: var(--white);
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px 40px;
+        border-radius: 25px;
+        font-weight: 500;
+        margin-top: 20px;
+        display: inline-block;
+        border: 2px solid var(--blue);
+        i {
+          margin-left: 10px;
+        }
+        &:hover {
+          background-color: var(--black-3);
+        }
+      }
+    }
+  }
+
+
+  .experience {
+    background: url('./assets/bg-exp.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 120px 0 60px;
+    color: var(--white);
+    h3 {
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+    &__content {
+      .experience__item {
+        margin-bottom: 25px;
+        padding: 26px 30px;
+        border-radius: 4px;
+        background-color: var(--black-2);
+        h5 {
+          font-size: 20px;
+          a {
+            color: var(--blue);
+            text-decoration: none;
+          }
+        }
+        .experience__year {
+          font-size: 14px;
+          color: var(--blue);
+        }
+        .experience__desc {
+          font-size: 14px;
+          ul {
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+  }
+
+
+  .skill {
+    background-color: var(--black-3);
+    color: var(--white);
+    padding: 60px 0;
+    h3 {
+      margin-bottom: 15px;
+    }
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 25px;
+      span {
+        background-color: var(--blue);
+        color: var(--white);
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 5px 20px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+      }
+    }
+    img {
+      max-width: 500px;
+      width: 100%;
+    }
+  }
+
+  .footer {
+    background-color: var(--black);
+    color: var(--white);
+    p {
+      text-align: center;
+      padding: 12px 0;
+      font-size: 13px;
+      margin: 0;
+    }
+  }
+}
+//-------------------------------- End About
