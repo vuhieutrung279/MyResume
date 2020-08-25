@@ -5,14 +5,14 @@
         "place": "Ambition+ Custom Solutions",
         "link": "http://www.ambitionplus.net/",
         "year": "11/2018 - 6/2020",
-        "content":"<ul><li>Create and modify website about Vehicle of Australia</li><li>Create mail template for gmail and outlook</li><li>Improve SEO and page load for each website</li><li>Create website using AMP</li></ul>"
+        "content":"<ul><li>Create and modify more than 80 websites about Australia vehicles using ASP.NET MVC3, MVC5 with jQuery, AngularJS</li><li>Create mail template for gmail and outlook</li><li>Create AMP page, Improve SE0 and page speed for a few website</li><li>Maintain and develop admin page using C# and AngularJS</li></ul>"
     },
     {
         "id": 2,
         "title": "Intern Front-End",
         "place": "VietCV",
         "link": "https://vietcv.io/",
-        "year": "6/2018 - 10/2018",
+        "year": "06/2018 - 10/2018",
         "content": "<ul><li>Design and make a new CV template using HTML(HAML) and CSS(SCSS)</li><li>Improve Front-end of VietCV website</li><li>Create a new tips and fun fact for CV editor</li><li>Create a support laucher and working with backend feedback mail</li></ul>"
     },
     {
@@ -20,7 +20,7 @@
         "title": "Software Engineer",
         "place": "HUFLIT University",
         "link": "https://huflit.edu.vn/",
-        "year": "2014 - 2019",
-        "content": "GPA: 2.95 / 4.0"
+        "year": "09/2014 - 10/2019",
+        "content": "<ul><li>GPA: 2.95 / 4.0</li><li>English: Pre-Intermediate</li></ul>"
     }
 ]

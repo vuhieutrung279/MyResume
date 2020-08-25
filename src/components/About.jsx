@@ -4,7 +4,7 @@ import AboutImg from '../assets/about-img.svg';
 import SkillImg from '../assets/skill-img.png';
 import Experience from './Experience';
 import dbExp from '../data/experience.json';
-import resume from '../assets/resume-vuhieutrung.pdf';
+import resume from '../assets/CV-FrontEnd-VuHieuTrung.pdf';
 function About() {
     return (
         <div className="about">
@@ -55,11 +55,13 @@ function About() {
                                 <span>CSS3</span>
                                 <span>Javascript / ES6</span>
                                 <span>jQuery</span>
-                                <span>SASS</span>
+                                <span>SCSS (BEM)</span>
                                 <span>Bootstrap</span>
                                 <span>AngularJS</span>
                                 <span>ReactJS</span>
-                                <span>ExpressJS</span>
+                                <span>C#</span>
+                                <span>Git</span>
+                                <span>Photoshop</span>
                             </div>
                             <h3>PERSONAL SKILLS</h3>
                             <div className="skill__list">

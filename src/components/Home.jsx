@@ -5,7 +5,7 @@ function Home() {
         <div className="home">
             <div className="container">
                 <div className="row">
-                <div className="col-md-6">
+                <div className="col-sm-6 home__detail">
                     <span className="home__hello">Hello I'm</span>
                     <h1 className="home__name">Vu Hieu Trung</h1>
                     <h3 className="home__job">Front End Developer</h3>
@@ -17,6 +17,12 @@ function Home() {
                             </a>
                         </li>
                         <li>
+                            <a rel="noopener noreferrer">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>27/09/1996</span>
+                            </a>
+                        </li>
+                        <li>
                             <a href="tel:079.797.0742">
                                 <i className="fa fa-mobile-alt"></i>
                                 <span>079.797.0742</span>
@@ -25,7 +31,7 @@ function Home() {
                         <li>
                             <a href="https://goo.gl/maps/WkowcnFxBS91zxik9" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-map-marker-alt"></i>
-                                <span>Nguyen Thai Son, Ward 3, Go Vap District</span>
+                                <span>Go Vap District, Ho Chi Minh City</span>
                             </a>
                         </li>
                     </ul>
@@ -48,7 +54,7 @@ function Home() {
                     </ul>
                 </div>
 
-                <div className="col-md-6 text-center">
+                <div className="col-sm-6 d-flex align-items-center justify-content-center">
                     <div className="avatar">
                         <img src={Avatar} alt="avatar" />
                     </div>

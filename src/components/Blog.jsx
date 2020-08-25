@@ -12,7 +12,7 @@ function Blog() {
                 <div className="container">
                     <div className="row">
                         {dbBlog.map((item, key) => (
-                            <div className="col-md-4">
+                            <div className="col-sm-6 col-md-4">
                                 <BlogItem id={item.id} title={item.title} shortDesc={item.shortDesc} imageBlog={item.imageBlog} />
                             </div>
                         ))}
